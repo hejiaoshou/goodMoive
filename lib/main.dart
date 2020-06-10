@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'view/home.dart';
+
 void main() {
   runApp(Myhome());
 }
@@ -13,20 +15,6 @@ class Myhome extends StatelessWidget {
       },
       initialRoute: '/',
       title: "豆瓣高分电影",
-    );
-  }
-}
-
-class Home extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('豆瓣高分电影'),
-      ),
-      body: Container(
-        child: Text("hello")
-      ),
     );
   }
 }
